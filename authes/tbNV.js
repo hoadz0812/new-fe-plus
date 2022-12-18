@@ -29,4 +29,10 @@ function createRow(rowData) {
   console.log(foods);
 })();
 
+function delNV(id) {
+  if (confirm("Do you want Delete?")) {
+    deleteNV(id);
+    window.location.reload();
+  }
+}
 
