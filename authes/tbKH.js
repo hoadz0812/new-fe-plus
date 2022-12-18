@@ -32,4 +32,9 @@ function createRow(rowData) {
   console.log(foods);
 })();
 
-
+function delKH(id) {
+  if (confirm("Do you want Delete?")) {
+    deleteKH(id);
+    window.location.reload();
+  }
+}
